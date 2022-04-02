@@ -463,8 +463,8 @@ textCalPotenLengL1 = "CALCULAR POTENCIA L1"
 textCalPotenLengL2 = "CALCULAR POTENCIA L2"
 textResultado = "RESULTADO"
 
-boton_btn = Button(venta,text=textIngles,command=CambioDeLenguaje.ingles,width="30",height="1",bg="black",fg="#0DBFF8").place(x=340,y= 30)
-boton_btn = Button(venta,text=textEspanol,command=CambioDeLenguaje.espanol,width="30",height="1",bg="black",fg="#0DBFF8").place(x=340,y= 50)
+boton_btn = Button(venta,text=textIngles,command=CambioDeLenguaje.ingles,width="30",height="1",bg="black",fg="#0DBFF8").place(x=500,y= 30)
+boton_btn = Button(venta,text=textEspanol,command=CambioDeLenguaje.espanol,width="30",height="1",bg="black",fg="#0DBFF8").place(x=500,y= 70)
 
 Alfabeto1_label = Label(text=textAlfab1,bg="black",fg="#0DBFF8").place(x=340,y=70)
 
